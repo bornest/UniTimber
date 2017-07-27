@@ -5,7 +5,7 @@ import java.text.SimpleDateFormat
 import java.util.*
 
 /**
- * Created by nbv54 on 14-Apr-17.
+ * Logger that prints logs with System.out.println
  */
 class JavaLogger(
     private val logTimestamps: Boolean = true,

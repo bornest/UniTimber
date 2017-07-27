@@ -1,9 +1,16 @@
 package com.github.unitimber.core.loggable
 
 /**
- * Created by nbv54 on 17-Apr-17.
+ * Something that can potentially perform logging
  */
 interface Loggable {
+    /**
+     * True if logging is enabled
+     */
     var loggingEnabled : Boolean
+    
+    /**
+     * Tag to be used while logging
+     */
     val logTag: String?
 }

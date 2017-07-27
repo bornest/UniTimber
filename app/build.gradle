@@ -98,19 +98,6 @@ dependencies {
             androidTestCompile "org.jetbrains.kotlin:kotlin-test:$kotlin_ver"
             androidTestCompile "org.jetbrains.kotlin:kotlin-test-junit:$kotlin_ver"
 
-            //region Espresso
-                // Espresso core
-                androidTestCompile("com.android.support.test.espresso:espresso-core:$espresso_ver", { exclude group: 'com.android.support' })
-                // Espresso-contrib for DatePicker, RecyclerView, Drawer actions, Accessibility checks, CountingIdlingResource
-                androidTestCompile ("com.android.support.test.espresso:espresso-contrib:$espresso_ver", { exclude group: 'com.android.support' })
-
-                //For compatibility with support lib version used in the project
-                androidTestCompile "com.android.support:support-v4:$support_lib_ver"
-                androidTestCompile "com.android.support:appcompat-v7:$support_lib_ver"
-                androidTestCompile "com.android.support:recyclerview-v7:$support_lib_ver"
-                androidTestCompile "com.android.support:design:$support_lib_ver"
-            //endregion
-
             //region Mockito
                 // required if you want to use Mockito for Android tests
                 androidTestCompile 'org.mockito:mockito-android:2.8.9'

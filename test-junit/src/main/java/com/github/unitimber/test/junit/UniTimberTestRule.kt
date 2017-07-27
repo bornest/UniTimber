@@ -6,7 +6,7 @@ import com.github.unitimber.core.extensions.uniTimberPlantDebugTree
 import org.junit.rules.ExternalResource
 
 /**
- * Created by nbv54 on 12-May-17.
+ * JUnit Test Rule that enables UniTimber logging in Unit Tests
  */
 class UniTimberTestRule : ExternalResource() {
     override fun before() {

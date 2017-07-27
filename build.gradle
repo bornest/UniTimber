@@ -10,14 +10,8 @@ ext {
     targetsdk_ver = 26
 
     mockito_kotlin_ver = '1.5.0'
-    espresso_ver = '2.2.2'
 
     support_lib_ver = '25.4.0'
-
-    rxjava2_ver = '2.1.0'
-    rxkotlin2_ver = '2.0.3'
-    rxandroid_ver = '2.0.1'
-    rxbinding_ver = '2.0.0'
 }
 
 allprojects {
@@ -38,14 +32,6 @@ allprojects {
             //region Kotlin
                 force "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_ver"
                 force "org.jetbrains.kotlin:kotlin-reflect:$kotlin_ver"
-            //endregion
-
-            //region RxJava 2.x
-                force "io.reactivex.rxjava2:rxjava:$rxjava2_ver"
-            //endregion
-
-            //region RxAndroid
-                force "io.reactivex.rxjava2:rxandroid:$rxandroid_ver"
             //endregion
 
             //region (for) Mockito

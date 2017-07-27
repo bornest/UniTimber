@@ -3,7 +3,7 @@ package com.github.unitimber.core
 import android.util.Log
 
 /**
- * Created by nbv54 on 14-Apr-17.
+ * Logger that uses android.util.Log
  */
 class AndroidLogger : AbstractLogger() {
     override val VERBOSE = Log.VERBOSE
