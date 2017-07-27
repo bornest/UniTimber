@@ -1,4 +1,5 @@
 # UniTimber
+[![](https://jitpack.io/v/bornest/UniTimber.svg)](https://jitpack.io/#bornest/UniTimber)
 
 Android library that is a modification and extension of [Timber](https://github.com/JakeWharton/timber) and [Slimber](https://github.com/PaulWoitaschek/Slimber).
 
@@ -10,6 +11,20 @@ Provides extra Kotlin extensions for more idiomatic usage.
 count.**
 
 # Setup
+
+To use the latest release add following code to your Gradle dependencies:
+
+```groovy
+//core
+compile 'com.github.bornest.UniTimber:core:v0.1.0'
+
+//JUnit test rule for Unit Tests
+testCompile 'com.github.bornest.UniTimber:test-junit:v0.1.0'
+
+//JUnit test rule for Instrumented Tests
+androidTestCompile 'com.github.bornest.UniTimber:test-junit:v0.1.0'
+```
+
 
 To use the latest SNAPSHOT add following code to your Gradle dependencies:
 
